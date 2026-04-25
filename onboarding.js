@@ -93,6 +93,7 @@ Flexibilty
 1. Lunge - 15 min
 2. Cat Cow stretch - 15 min
 3. Hip Circles - 15 min
+4. Back Bridges
 
 General Fitness
 1. Stairmaster - 15 min
@@ -214,17 +215,84 @@ Volume
 Large weight, small height
 
 Stamina
-1. Elliptical 
-2. Running
+1. Elliptical - 15 min
+2. Running - 15 min
 
 Flexibility
-1. 
+1. Cat Cow Stretch - 15 min
+2. Lunge - 15 min
 
 General Fitness
+1. Squats - 15 min
+2. Running - 15 min
 
 Strength
+1. Squats - 15 min
+2. Bench Press - 15 min
 
 Volume
+1. Lateral Raises - 15 min
+2. Bicep Curls - 15 min
+
+Large weight, medium height
+
+Stamina
+1. Elliptical - 15 min
+2. Running - 15 min
+3. Cycling - 15 min
+
+Flexibility
+1. Cat Cow Stretch - 15 min
+2. Lunge - 15 min
+3. Hip Circles - 15 min
+
+General Fitness
+1. Squats - 15 min
+2. Running - 15 min
+3. Hip Circles - 15 min
+
+Strength
+1. Squats - 15 min
+2. Bench Press - 15 min
+3. Deadlifts - 15 min
+
+Volume
+1. Lateral Raises - 15 min
+2. Bicep Curls - 15 min
+3. Tricep Rope Pushdown - 15 min
+
+Large weight, large height
+
+Stamina
+1. Elliptical - 15 min
+2. Running - 15 min
+3. Cycling - 15 min
+4. Swimming - 15 min
+
+Flexibility
+1. Cat Cow Stretch - 15 min
+2. Lunge - 15 min
+3. Hip Circles - 15 min
+4. Back Bridges - 15 min
+
+General Fitness
+1. Squats - 15 min
+2. Running - 15 min
+3. Hip Circles - 15 min
+4. Bench Press - 15 min
+
+Strength
+1. Squats - 15 min
+2. Bench Press - 15 min
+3. Deadlifts - 15 min
+4. Overhead Press - 15 min
+
+Volume
+1. Lateral Raises - 15 min
+2. Bicep Curls - 15 min
+3. Tricep Rope Pushdown - 15 min
+4. Hamstring Curls - 15 min
+
 ""
 
 */
