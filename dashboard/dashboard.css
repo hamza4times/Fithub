@@ -11,6 +11,10 @@ body{
     background-position: center;
     background-blend-mode: lighten;
     min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
 }
 
 .top-icons {
@@ -25,7 +29,7 @@ body{
 #dashboard-title {
     font-size: 42px;
     margin-bottom: 20px;
-    margin-top: 100px;
+    margin-top: 20px;
     text-shadow: 2px 2px 4px rgba(255, 255, 255, 0.674);
     text-align: center;
     align-content: center;
@@ -38,9 +42,9 @@ body{
     align-items: center;
     justify-content: center;
     max-width: 1200px;
-    height: 100vh;
     color: rgb(0, 0, 0);
     text-shadow: 2px 2px 4px rgba(226, 255, 189, 0.7);
+
 }
 
 .dashboard-item {
@@ -54,12 +58,12 @@ body{
     gap: 15px;
 }
 
-.dashboard-card h2 {
+.dashboard-item h2 {
     color: rgb(18, 40, 0);
     font-size: 22px;
 }
 
-.dashboard-card p {
+.dashboard-item p {
     color: #444;
     font-size: 15px;
     line-height: 1.6;

@@ -27,7 +27,7 @@
     font-family: "Original Surfer", sans-serif;
     font-size: 100px;
     color: var(--main-text-color);
-    margin-bottom: 15px;
+    margin-bottom: -50px;
 
     /*-------*/
 }
@@ -36,12 +36,13 @@
     font-family: "Original Surfer", sans-serif;
     font-size: 50px;
     color: rgb(0, 0, 0);
+    margin-bottom: 5px;
 }
 
 body{
     background-image: url("https://i.pinimg.com/736x/61/27/5c/61275ca3faba1aa9cff2bf5b7d56ad72.jpg");
     background-size: cover;
-    background blend-mode: lighten;
+    background-blend-mode: lighten;
     background-repeat: no-repeat;
     min-height: 100vh;
     margin: 0;
@@ -55,4 +56,9 @@ body{
     width: 100px;
     height: 30px;
     border-radius: 10px;
+}
+
+img{
+    margin-bottom: -100px;
+    margin-top: -15px;
 }
