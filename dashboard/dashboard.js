@@ -1,30 +1,67 @@
+// export {createDashboard};
 
-export async function runAI(prompt) {
-  try {
-    const response = await fetch("https://openrouter.ai/api/v1/chat/completions", {
-      method: "POST",
-      headers: {
-        "Authorization": "Bearer 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",
-        "Content-Type": "application/json",
-        "HTTP-Referer": window.location.origin,
-        "X-Title": "My AI App"
-      },
-      body: JSON.stringify({
-        model: "openai/gpt-4o-mini",
-        messages: [
-          {
-            role: "user",
-            content: prompt
-          }
-        ]
-      })
-    });
+// function createDashboard(workoutPlan, mealPlan){
+//   let mealContent = document.querySelector('#meal-content');
+//   let workoutContent = document.querySelector('#workout-content');
 
-    const data = await response.json();
+//   mealContent.textContent = mealPlan;
+//   workoutContent.textContent = workoutPlan;
+// }
 
-    return data.choices?.[0]?.message?.content || "No response";
-  } catch (err) {
-    console.error(err);
-    return "Error generating content";
+// const mealPlan = sessionStorage.getItem("mealPlan");
+// const workoutPlan = sessionStorage.getItem("workoutPlan");
+
+// createDashboard(workoutPlan, mealPlan);
+
+// export async function runAI(prompt) {
+//   try {
+//     const response = await fetch("https://openrouter.ai/api/v1/chat/completions", {
+//       method: "POST",
+//       headers: {
+//         "Authorization": "Bearer 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",
+//         "Content-Type": "application/json",
+//         "HTTP-Referer": window.location.origin,
+//         "X-Title": "My AI App"
+//       },
+//       body: JSON.stringify({
+//         model: "openai/gpt-4o-mini",
+//         messages: [
+//           {
+//             role: "user",
+//             content: prompt
+//           }
+//         ]
+//       })
+//     });
+
+//     const data = await response.json();
+
+//     return data.choices?.[0]?.message?.content || "No response";
+//   } catch (err) {
+//     console.error(err);
+//     return "Error generating content";
+//   }
+// }
+
+
+export { createDashboard };
+
+function createDashboard(workoutPlan, mealPlan){
+  let mealContent = document.querySelector('#meal-content');
+  let workoutContent = document.querySelector('#workout-content');
+
+  if (!mealContent || !workoutContent) {
+    console.error("Dashboard elements not found");
+    return;
   }
+
+  mealContent.textContent = mealPlan;
+  workoutContent.textContent = workoutPlan;
 }
+
+document.addEventListener("DOMContentLoaded", () => {
+  const mealPlan = sessionStorage.getItem("mealPlan");
+  const workoutPlan = sessionStorage.getItem("workoutPlan");
+
+  createDashboard(workoutPlan, mealPlan);
+});

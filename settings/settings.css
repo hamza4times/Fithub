@@ -17,10 +17,11 @@ body{
     border-radius: 10px;
     max-width: 400px;
     margin: 50px auto;
-    box-shadow: 0 4px 8px rgba(223, 254, 150, 0.705);
+    box-shadow: 0 6px 8px 6px rgba(254, 150, 199, 0.705);
     align-content: center;
     text-align: center;
     margin-top: 250px;
+    text-shadow: 2px 2px 4px rgba(247, 157, 194, 0.79);
 }
 
 #height, #weight {
@@ -34,7 +35,7 @@ body{
     border: none;
     padding: 10px;
     border-radius: 5px;
-    border: 5px solid rgb(192, 237, 156);
+    border: 5px solid rgb(233, 157, 192);
     cursor: pointer;
     font-family: "Original Surfer", sans-serif;
     font-size: 16px;

@@ -1,4 +1,7 @@
-import {runAI} from '../dashboard/dashboard.js';
+import { runAI } from '../ai.js';
+
+let mealPlan;
+let workoutPlan;
 
 let submitBTN = document.querySelector('#submit');
 
@@ -14,12 +17,15 @@ submitBTN.addEventListener('click', async () => {
         let weight = "101";
         let height = "101";
 
-        let mealPlan = await runAI("Weight: " + weight + " Height: " + height + " Create a meal plan");
-        let workoutPlan = await runAI("Weight: " + weight + " Height: " + height + " Create a workout plan");
+        mealPlan = await runAI("Weight: " + weight + " Height: " + height + " Create a meal plan");
+        workoutPlan = await runAI("Weight: " + weight + " Height: " + height + " Create a workout plan");
+        
+    sessionStorage.setItem("mealPlan", mealPlan);
+    sessionStorage.setItem("workoutPlan", workoutPlan);
 
-        console.log(mealPlan);
-        console.log(workoutPlan);
-
+        window.location.href = '../dashboard/dashboard.html';
+        createDashboard(workoutPlan, mealPlan);
+        
     } catch (err) {
         console.error(err);
     }
@@ -27,3 +33,5 @@ submitBTN.addEventListener('click', async () => {
     isLoading = false;
     submitBTN.disabled = false;
 });
+
+

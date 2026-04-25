@@ -1,7 +1,5 @@
-.original-surfer-regular {
-  font-family: "Original Surfer", sans-serif;
-  font-weight: 400;
-  font-style: normal;
+* {
+    font-family: "Original Surfer", sans-serif;
 }
 
 input,
@@ -27,7 +25,7 @@ div{
     display: flex;
     flex-direction: column;
     gap: 10px;
-    box-shadow: 0 6px 30px rgba(226, 247, 157, 0.518);
+    box-shadow: 0 6px 30px rgba(252, 146, 190, 0.725);
     align-content: center;
     margin-top: 100px;
     margin: 50px auto;
@@ -42,6 +40,7 @@ div{
     text-align: center;
     margin-bottom: 20px;
     align-content: center;
+  
 }
 
 
@@ -53,12 +52,14 @@ div{
     border: 1px solid rgb(172, 207, 144);
     font-family: "Original Surfer", sans-serif;
     font-size: 16px;
+    text-shadow: 2px 6px 8px rgba(247, 133, 194, 0.914);
 }
 
 #submit {
     background-color: rgb(172, 207, 144);
     color: white;
-    border: none;
+    border-radius: 5px;
+    border: 5px solid rgb(233, 157, 192);
     padding: 10px;
     border-radius: 5px;
     cursor: pointer;
