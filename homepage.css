@@ -27,7 +27,7 @@
     font-family: "Original Surfer", sans-serif;
     font-size: 100px;
     color: var(--main-text-color);
-    margin-bottom: -50px;
+    margin-bottom: 15px;
 
     /*-------*/
 }
@@ -56,5 +56,3 @@ body{
     height: 30px;
     border-radius: 10px;
 }
-
-

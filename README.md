@@ -33,7 +33,7 @@
 # 15, 30, 45, 60 Minutes
 
 # Guided protein intake levels
-# 
+# More protein for more weight/height
 
 # Frontend: 
 
