@@ -1,0 +1,19 @@
+input,
+button,
+select,
+textarea {
+    font-family: "Original Surfer", sans-serif;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+}
+
+#name, #email {
+    margin: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid rgb(172, 207, 144);
+}
+
