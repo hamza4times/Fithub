@@ -48,9 +48,8 @@ body{
     border-radius: 20px;
     padding: 30px;
     margin: 10px;
-    margin-right: -70px;
     width: 380px;
-    box-shadow: 0 4px 8px rgba(227, 255, 167, 0.681);
+    box-shadow: 0 8px 6px 8px rgba(253, 171, 230, 0.681);
     text-align: center;
     gap: 15px;
 }
