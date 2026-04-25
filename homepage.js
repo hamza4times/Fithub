@@ -1,6 +1,6 @@
 let getstartedbtn = document.querySelector('#get-started-btn');
 getstartedbtn.addEventListener('click' ,() => {
-    window.location.href = 'Login-and-Signup/login_and_signup.html';
+    window.location.href = './Login-and-Signup/login_and_signup.html';
 });
 
 

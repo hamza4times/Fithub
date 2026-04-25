@@ -10,7 +10,10 @@
     <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400..900&family=Original+Surfer&display=swap" rel="stylesheet">
 </head>
 <body>
-   <label for="weight">Weight: </label>
+    <div class="card">
+        <h1>Enter your Stats!</h1>
+
+        <label for="weight">Weight: </label>
         <input type="range" value="0" min="1" max="120" id="weight" name="weight" oninput="this.nextElementSibling.value = this.value" required>
         <output>1</output>
         <p>pounds</p>
@@ -20,8 +23,10 @@
         <output>1</output>
         <p>inches</p>
 
+        <button id="submit">Submit</button>
+    </div>
+
 
         <script src="settings.js" type="module"></script>
-    </form>
 </body>
 </html>

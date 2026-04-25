@@ -13,9 +13,19 @@ body{
     min-height: 100vh;
 }
 
+.top-icons {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    display: flex;
+    gap: 15px;
+}
+
+
 #dashboard-title {
-    font-size: 3em;
+    font-size: 42px;
     margin-bottom: 20px;
+    margin-top: 100px;
     text-shadow: 2px 2px 4px rgba(255, 255, 255, 0.674);
     text-align: center;
     align-content: center;
@@ -23,10 +33,37 @@ body{
 
 .dashboard-container {
     display: flex;
-    flex-direction: column;
+    gap: 20px;
+    flex-wrap: wrap;
     align-items: center;
     justify-content: center;
+    max-width: 1200px;
     height: 100vh;
     color: rgb(0, 0, 0);
     text-shadow: 2px 2px 4px rgba(226, 255, 189, 0.7);
 }
+
+.dashboard-item {
+    background: rgba(255, 255, 255, 0.8);
+    border-radius: 20px;
+    padding: 30px;
+    margin: 10px;
+    margin-right: -70px;
+    width: 380px;
+    box-shadow: 0 4px 8px rgba(227, 255, 167, 0.681);
+    text-align: center;
+    gap: 15px;
+}
+
+.dashboard-card h2 {
+    color: rgb(18, 40, 0);
+    font-size: 22px;
+}
+
+.dashboard-card p {
+    color: #444;
+    font-size: 15px;
+    line-height: 1.6;
+}
+
+
