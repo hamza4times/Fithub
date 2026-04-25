@@ -1,4 +1,19 @@
+/*Variables*/
+:root{
+    --main-bg-color: rgb(211, 255, 211);
+    --main-text-color: black;
+}
+
+
+#bar{
+    display: flex;
+    flex-direction: row-reverse;
+    gap: 10px;
+}
+
 #hero{
+    /* background-color: var(--main-bg-color); */
+    margin-top: 100px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -11,29 +26,32 @@
 #title{
     font-family: "Original Surfer", sans-serif;
     font-size: 100px;
-    color: rgb(0, 0, 0);
-    margin: 30 px;
+    color: var(--main-text-color);
+    margin-bottom: -50px;
 
     /*-------*/
 }
 
 #subtitle{
     font-family: "Original Surfer", sans-serif;
-    font-size: 75px;
+    font-size: 50px;
     color: rgb(0, 0, 0);
-    margin-top:30px;
-    margin-bottom: 30px;
 }
 
 body{
-    background-image: url("assets/fondo horizontal morado pastel.jpg");
+    background-image: url("https://i.pinimg.com/736x/61/27/5c/61275ca3faba1aa9cff2bf5b7d56ad72.jpg");
     background-size: cover;
-    background-repeat: no-repeat;
     background blend-mode: lighten;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    margin: 0;
+
+    display: flex;
+    flex-direction: column;
 }
 
 #get-started-btn{
-    background-color: lightblue;
+    background-color: rgb(224, 250, 172);
     width: 100px;
     height: 30px;
     border-radius: 10px;
