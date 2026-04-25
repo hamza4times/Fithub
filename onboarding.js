@@ -17,9 +17,11 @@ Preference: (Drop Down Menu Choose One)
  - Cat-Cow Stretch
  - Back Bridges
 3. General Fitness
- - Staairmaster
+ - Stairmaster
  - Cat-Cow Stretch
- 
+ - Bench Press
+ - Bicep Curls
+ - Squats
 4. Strength
  - Bench Press
  - Squats
@@ -28,27 +30,106 @@ Preference: (Drop Down Menu Choose One)
  - Weighted Pullups
 5. Volume
  - Bicep Curls
-  - Tricep Rope Pushdown
-   - Leg Ext
-dn
+ - Tricep Rope Pushdown
+ - Leg Extension
+ - Hamstring Curls
+ - Lateral Raises
 
-  
+  Time - 15, 30, 45, 60 minutes
 
 
 Enter Button
 
 Weight:
-Small: <= 110
+Small: 0 <= x <= 110
 Medium: 110 <= x <= 160
-High: 160 >=
+High: 160 <= x <= 500
 
 Height:
-Short: <= 5 ft
+Short: 0 <= x <= 5 ft
 Medium: 5 <= x <= 5'8
-Tall: 5'8 >
+Tall: 5'8 <= x <= 7
 
+Feel free to combine both workouts as needed
 
-Preferences:
+Small weight, short height
+Stamina
+1. Stairmaster - 15 min
+2. Cycling - 15 min
+
+Strength
+1. Bench Press - 15 min
+2. Squat - 15 min
+
+Volume
+1. Bicep Curl - 15 min
+2. Leg Extension - 15 min
+
+Flexibilty
+1. Lunge - 15 min
+2. Cat Cow stretch - 15 min
+
+General Fitness
+1. Stairmaster - 15 min
+2. Bench Press - 15 min
+
+Small Weight, Medium Height
+Stamina 
+1. Elliptical - 15 min
+2. Stairmaster - 15 min
+3. Cycling - 15 min
+
+Strength
+1. Bench Press - 15 min
+2. Squat - 15 min
+3. Weighted Press - 15 min
+
+Volume
+1. Bicep Curl - 15 min
+2. Leg Extension - 15 min
+3. Lateral Raises - 15 min
+
+Flexibilty
+1. Lunge - 15 min
+2. Cat Cow stretch - 15 min
+3. Hip Circles - 15 min
+4. Back Bridges
+
+General Fitness
+1. Stairmaster - 15 min
+2. Bench Press - 15 min
+3. Bicep Curls - 15 min
+
+Small weight, tall height
+Stamina 
+1. Elliptical - 15 min
+2. Stairmaster - 15 min
+3. Cycling - 15 min
+4. Running - 15 min
+
+Strength
+1. Bench Press - 15 min
+2. Squat - 15 min
+3. Weighted Press - 15 min
+4. Deadlifts - 15 min
+
+Volume
+1. Bicep Curl - 15 min
+2. Leg Extension - 15 min
+3. Lateral Raises - 15 min
+4. Tricep Rope Pushdown
+
+Flexibilty
+1. Lunge - 15 min
+2. Cat Cow stretch - 15 min
+3. Hip Circles - 15 min
+4. Calf Stretch - 15 min
+
+General Fitness
+1. Stairmaster - 15 min
+2. Bench Press - 15 min
+3. Bicep Curls - 15 min
+4. Cat Cow Stretch - 15 min
 
 
 ""
