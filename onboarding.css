@@ -1,11 +1,40 @@
 #hero{
-    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* background-image: url("assets/background-img.jpg");
+    background-size: cover;
+    background-repeat: no-repeat; */
 }
 
 #title{
-    
+    font-family: "Original Surfer", sans-serif;
+    font-size: 100px;
+    color: rgb(0, 0, 0);
+    margin: 30 px;
+
+    /*-------*/
 }
 
 #subtitle{
+    font-family: "Original Surfer", sans-serif;
+    font-size: 75px;
+    color: rgb(0, 0, 0);
+    margin-top:30px;
+    margin-bottom: 30px;
+}
 
+body{
+    background-image: url("assets/fondo horizontal morado pastel.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background blend-mode: lighten;
+}
+
+#get-started-btn{
+    background-color: lightblue;
+    width: 100px;
+    height: 30px;
+    border-radius: 10px;
 }
