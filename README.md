@@ -17,7 +17,6 @@
 # Medium: 60-68 in
 # Tall - 68 - 120 in
 
-segnar t
 # 5 Options for Workouts
 # 1. Stamina
 # 2. Flexibility
@@ -29,8 +28,12 @@ segnar t
 # 1. Lean
 # 2. Maintain
 # 3. Bulk
+
 # Personalized regimens and time durations
+# 15, 30, 45, 60 Minutes
+
 # Guided protein intake levels
+# 
 
 # Frontend: 
 

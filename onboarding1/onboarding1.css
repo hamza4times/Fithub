@@ -29,7 +29,9 @@ form{
     gap: 10px;
     box-shadow: 0 6px 30px rgba(226, 247, 157, 0.518);
     align-content: center;
+    margin-top: 100px;
     margin: 50px auto;
+    
 }
 
 #Login{
@@ -49,6 +51,17 @@ form{
     padding: 10px;
     border-radius: 5px;
     border: 1px solid rgb(172, 207, 144);
+    font-family: "Original Surfer", sans-serif;
+    font-size: 16px;
+}
+
+#submit {
+    background-color: rgb(172, 207, 144);
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
     font-family: "Original Surfer", sans-serif;
     font-size: 16px;
 }
