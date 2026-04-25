@@ -293,6 +293,51 @@ Volume
 3. Tricep Rope Pushdown - 15 min
 4. Hamstring Curls - 15 min
 
+💪 Protein Intake Matrix (9 Categories)
+🔹 Small Weight (120–140 lbs)
+Small Weight + Short Height
+
+👉 80–95g protein/day
+
+Lower total mass → lower requirement
+Small Weight + Medium Height
+
+👉 90–105g protein/day
+
+Small Weight + Tall Height
+
+👉 100–115g protein/day
+
+Taller frame → bump protein slightly
+🔹 Medium Weight (150–180 lbs)
+Medium Weight + Short Height
+
+👉 110–130g protein/day
+
+Medium Weight + Medium Height
+
+👉 120–150g protein/day
+
+This is the “standard” fitness range
+Medium Weight + Tall Height
+
+👉 130–165g protein/day
+
+🔹 Heavy Weight (190–230+ lbs)
+Heavy Weight + Short Height
+
+👉 140–170g protein/day
+
+Heavy Weight + Medium Height
+
+👉 150–190g protein/day
+
+Heavy Weight + Tall Height
+
+👉 170–220g protein/day
+
+Highest muscle potential → highest intake
+
 ""
 
 */

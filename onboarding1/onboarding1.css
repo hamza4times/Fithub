@@ -1,3 +1,9 @@
+.original-surfer-regular {
+  font-family: "Original Surfer", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
 input,
 button,
 select,
@@ -5,15 +11,45 @@ textarea {
     font-family: "Original Surfer", sans-serif;
 }
 
+body{
+    background-image: url("https://i.pinimg.com/1200x/cc/6d/9d/cc6d9dc12fe95b534daaef328c7b0426.jpg");
+    background-size: cover;
+    background-position: center;
+    background-blend-mode: lighten;
+    min-height: 100vh;
+}
+
 form{
+    background: rgba(255, 255, 255, 0.88);
+    border-radius: 16px;
+    padding: 40px;
+    width: 420px;
     display: flex;
     flex-direction: column;
+    gap: 10px;
+    box-shadow: 0 6px 30px rgba(226, 247, 157, 0.518);
+    align-content: center;
+    margin: 50px auto;
 }
+
+#Login{
+    font-family: "Original Surfer", sans-serif;
+    text-decoration-color: rgb(18, 40, 0);
+    margin-top: 20px;
+    padding: 10px;
+    text-align: center;
+    margin-bottom: 20px;
+    align-content: center;
+}
+
+
 
 #name, #email {
     margin: 10px;
     padding: 10px;
     border-radius: 5px;
     border: 1px solid rgb(172, 207, 144);
+    font-family: "Original Surfer", sans-serif;
+    font-size: 16px;
 }
 

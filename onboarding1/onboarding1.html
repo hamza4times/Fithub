@@ -10,7 +10,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400..900&family=Original+Surfer&display=swap" rel="stylesheet">
 </head>
 <body>
-    <h1></h1>
+    <h1 id="Login">Login!</h1>
     <form method="POST">
         <label for="name">Name: </label>
         <input type="text" id="name" name="name" required>
@@ -18,7 +18,7 @@
         <label for="email">Email: </label>
         <input type="email" id="email" name="email" required>
 
-        <label for="weight">Width: </label>
+        <label for="weight">Weight: </label>
         <input type="range" value="0" min="1" max="120" id="weight" name="weight" oninput="this.nextElementSibling.value = this.value" required>
         <output>1</output>
         <p>pounds</p>
